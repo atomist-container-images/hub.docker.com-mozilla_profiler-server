@@ -1,6 +1,12 @@
-# Tags: 0.0.6106, master-latest
-FROM mozilla/profiler-server:0.0.6106
+# Tags: 0.0.6144, master-latest
+FROM mozilla/profiler-server:0.0.6144
 FROM mozilla/profiler-server:master-latest
+
+# Tags: 0.0.6125
+FROM mozilla/profiler-server:0.0.6125
+
+# Tags: 0.0.6106
+FROM mozilla/profiler-server:0.0.6106
 
 # Tags: 0.0.6104, production-latest
 FROM mozilla/profiler-server:0.0.6104
@@ -47,15 +53,3 @@ FROM mozilla/profiler-server:0.0.5923
 
 # Tags: 0.0.5921
 FROM mozilla/profiler-server:0.0.5921
-
-# Tags: 0.0.5902
-FROM mozilla/profiler-server:0.0.5902
-
-# Tags: 0.0.5900
-FROM mozilla/profiler-server:0.0.5900
-
-# Tags: 0.0.5898
-FROM mozilla/profiler-server:0.0.5898
-
-# Tags: 0.0.5888
-FROM mozilla/profiler-server:0.0.5888
